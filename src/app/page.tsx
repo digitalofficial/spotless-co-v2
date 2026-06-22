@@ -128,6 +128,15 @@ export default function HomePage() {
     <>
       {/* ── Hero ──────────────────────────────────── */}
       <section className="relative bg-paper pt-32 pb-24 lg:pt-44 lg:pb-36 overflow-hidden">
+        {/* Background image */}
+        <img
+          src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1600&h=900&fit=crop"
+          alt="Clean bright modern home interior"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        {/* Light gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/50 to-white/80" />
+
         <Bubbles />
         <div className="relative z-10 mx-auto max-w-5xl px-6 lg:px-8 text-center">
           <p className="inline-flex items-center gap-2 rounded-full bg-mint px-4 py-1.5 text-xs font-semibold text-fresh tracking-wide uppercase mb-8">
